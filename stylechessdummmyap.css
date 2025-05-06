@@ -1,0 +1,97 @@
+/* *{
+    margin: 0px;
+    box-sizing: border-box;
+
+}   */
+body{
+    background-color: #a064b8e2;
+    align-content: center;
+}
+
+.Text{
+    text-align: center;
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Text p{
+    font-size: 10px; 
+    text-align: center;
+    color: #a064b8e2;
+
+}
+
+.chessboard {
+    border: 2px solid black;
+    width: 30%;
+    aspect-ratio: auto;
+    /* padding: 50px; */
+
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 4px 4px rgb(77, 74, 74);
+}
+
+.chessboard div {
+    /* width: 10%; */
+    height: 55px;
+    font-size: 40px;
+    /* font-display: swap; */
+    text-align: center;
+    text-shadow: 2px 1px white;
+
+    width: calc(100%/8);
+}
+/*dheere dheere samaj aara hai sir ko front end kyu nahi pasand TT*/
+.container{
+    display:flex;
+    /* padding: 50px; */
+    /* align-items: center; */
+    justify-content: center;
+}
+.form {
+    display:flex;
+    /* align-items: center; */
+    /* background-color: rgb(127, 184, 234); */
+    /* float: right;*/
+    padding-left: 300px;
+}
+
+.form form{
+    /* background-color: #8FB14E; */
+    /* text-align: center; */
+    /* box-shadow: inset; */
+    /* border-radius: 10px; */
+    /* padding: 100px; */
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=text]
+{
+    /* width: 100%;
+    padding: 12px;
+    font-size: 15px; */
+    border: 2px solid #1f680f; 
+    /* font-family: 'Courier New', Courier, bold; */
+    color: rgb(47, 113, 255);
+    background-color: #8FB14E;
+    border-radius: 4px;
+
+}
+input[type=submit]{
+    margin-top: 10px;
+    background-color: rgb(34, 91, 24);
+    color: aquamarine;
+    
+}
+.a {
+    background-color: #8FB14E;
+}
+
+.b {
+    background-color: #F4E0B2;
+
+}
+p{
+    text-align: right;
+}
